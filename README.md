@@ -1,4 +1,6 @@
 # KBC
+
+- <a href = "https://github.com/shreyaspoojary027/Learn-Python/blob/main/KBC%20.py">KBC Code</a>
 Author-shreyas
 
 This project is a simple, command-line-based quiz game inspired by the popular Indian TV show Kaun Banega Crorepati (KBC). The objective is to answer a series of multiple-choice questions correctly. Each correct answer increases the player's prize, and a wrong answer ends the game with the last secured prize amount.
