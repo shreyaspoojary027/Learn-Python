@@ -40,3 +40,5 @@ Check the user’s answer: if correct, increase prize and continue; if incorrect
 
 This project is a straightforward, beginner-friendly way to practice Python basics such as input/output, loops, conditional statements, and data structure handling—all while enjoying a quiz-game experience.
 
+-------------
+
