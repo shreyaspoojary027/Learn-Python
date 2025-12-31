@@ -1,0 +1,46 @@
+# This condition makes sure the code runs only when this file is executed directly
+# (and not when imported as a module)
+if __name__ == '__main__':
+
+    # Read how many commands the user will enter
+    N = int(input())
+
+    # Create an empty list to perform operations on
+    my_list = []
+
+    # Loop through each command
+    for _ in range(N):
+
+        # Read the input command and split it into words
+        # Example: "insert 0 5" → ['insert', '0', '5']
+        command = input().split()
+
+        # INSERT operation:
+        # insert value at a specific index
+        if command[0] == 'insert':
+            my_list.insert(int(command[1]), int(command[2]))
+
+        # PRINT operation:
+        # display the current state of the list
+        elif command[0] == 'print':
+            print(my_list)
+
+        # REMOVE operation:
+        # remove the first occurrence of a value from the list
+        elif command[0] == 'remove':
+            my_list.remove(int(command[1]))
+
+        # APPEND operation:
+        # add a value to the end of the list
+        elif command[0] == 'append':
+            my_list.append(int(command[1]))
+
+        # SORT operation:
+        # arrange the list in ascending order
+        elif command[0] == 'sort':
+            my_list.sort()
+
+        # POP operation:
+        # remove the last element from the list
+        elif command[0] == 'pop':
+            my_list.pop()
