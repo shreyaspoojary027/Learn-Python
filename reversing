@@ -1,0 +1,15 @@
+x=input()
+# l.extend(x.strip().split(" "))
+l=(x.strip().split(" "))
+
+newl=[]
+a=len(l)
+for i in l:
+    rev=""
+    for j in i:
+        rev=j+rev
+    newl.append(rev)    
+    
+y=" ".join(newl) 
+print(y)
+        
